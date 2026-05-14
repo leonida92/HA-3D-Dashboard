@@ -41,6 +41,12 @@ An interactive, 3D dashboard for Home Assistant built with React, Three.js (Reac
 
 ### Installation
 
+**Try it instantly:**
+You can skip the installation entirely by downloading the latest `index.html` from the [Releases](../../releases) page. Just double-click the file to open it directly in your browser!
+
+**For Developers:**
+If you want to run the project locally or modify the code:
+
 1. Install dependencies:
    ```bash
    npm install
