@@ -88,3 +88,7 @@ Before using the dashboard, you must prepare your 3D model in a dedicated 3D mod
 - `src/ha/`: Home Assistant connection logic.
 - `src/store/`: Zustand state management (slices for camera, config, entities, meshes, and rendering).
 - `src/utils/`: Helper utilities and colors.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0) - see the [LICENSE](LICENSE) file for details. This ensures the project and all its derivative works will always remain free and open-source.
