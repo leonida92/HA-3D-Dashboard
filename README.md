@@ -62,6 +62,15 @@ If you want to run the project locally or modify the code:
    npm run build
    ```
 
+## Model Preparation
+
+Before using the dashboard, you must prepare your 3D model in a dedicated 3D modeling software (like Blender, Maya, or 3ds Max). 
+
+**Important Considerations:**
+- **Mesh Division:** The dashboard does not support merging or dividing meshes. Ensure you separate your home's objects into individual meshes in your 3D software (e.g., separate walls, doors, windows, and furniture) so you can individually assign materials, colors, or Home Assistant entities to them later.
+- **Textures:** Set up your UV maps and base textures before exporting. 
+- **Export Format:** The dashboard requires a `.glb` or `.gltf` file. If your preferred 3D software does not support exporting directly to GLB/GLTF, you can import your model into [Blender](https://www.blender.org/) (which is free) and export it as a `.glb` from there.
+
 ## Configuration & Usage
 
 1. **Connecting to Home Assistant**:
