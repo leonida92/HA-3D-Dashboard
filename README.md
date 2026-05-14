@@ -8,15 +8,20 @@ An interactive, 3D dashboard for Home Assistant built with React, Three.js (Reac
 
 - **3D Model Visualization**: Load and render a 3D model of your home (e.g., GLTF/GLB formats) using Three.js and React Three Fiber.
 - **Home Assistant Integration**: Real-time websocket connection to your Home Assistant instance using `home-assistant-js-websocket`.
-- **Interactive Pins**: 
-  - Place custom pins on the 3D model.
-  - Bind pins to Home Assistant entities (e.g., lights, switches, sensors).
-  - Interact with pins to toggle entities or display real-time state.
-  - Customize pin appearance (colors, icons, styles).
-- **Material Editor**: Select meshes on your 3D model and dynamically edit their materials (color, metalness, roughness, opacity, etc.) directly from the UI.
-- **Lighting Controls**: Adjust the scene's lighting (ambient light, directional light, intensity) to match real-world conditions or aesthetics.
-- **Mesh & Tag Management**: Easily list, hide, or show specific parts (meshes) of your 3D model. Organize meshes with tags for easier management.
-- **Settings & State Persistence**: Customize your connection settings, theme, and save your camera views and pin configurations. State is managed seamlessly via Zustand.
+- **Personalized Views**: Create multiple saved views of your home. Every change you make (including background settings) is saved per view. You can even upload custom thumbnails for each view.
+- **Advanced Camera Controls**: Switch between Orthographic, Perspective, and 2-point Perspective cameras. Modify the Field of View (FOV) and lock/unlock orbiting and movement for precise framing.
+- **First-Person Navigation**: Walk through your 3D scene using WASD controls, with adjustable walking speed.
+- **Interactive Pins**: Place fully customizable pins on meshes and link them to Home Assistant entities. Display any number of entity attributes. Pins automatically hide while orbiting or walking for a cleaner view.
+- **Dynamic Entity Reactions**: 
+  - **Physical Lights**: Assign a light entity to a mesh to create a real 3D light source in the scene, with controllable intensity, color, and position.
+  - **Sensor Highlighting**: Visually highlight meshes based on sensor or binary sensor states (e.g., a door mesh changes to a specific color when the physical door is opened).
+- **Tag Management & Visibility**: Tag meshes for organization or visibility control. Isolate specific tagged items to create focused, orthographic views of a single room or space.
+- **Lighting & Rendering**:
+  - Choose between different HDRIs (or upload your own) to dramatically change the scene's environmental lighting.
+  - Toggle between different rendering styles (currently supports a clean white/clay mode).
+  - Adjust shadow quality to optimize performance for your specific hardware.
+- **Material Editor**: A built-in material editor allows you to quickly adjust colors, metalness, roughness, and opacity of any mesh directly from the UI.
+- **Presentation Mode**: Toggle the visibility of the UI interface to enjoy an unobstructed view of your configured dashboard.
 
 ## Tech Stack
 
