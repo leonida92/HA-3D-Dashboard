@@ -1,0 +1,16 @@
+{
+  "name": "HA 3D Dashboard",
+  "short_name": "HA 3D",
+  "description": "3D Home Assistant Dashboard",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#1a1a1a",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
