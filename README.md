@@ -1,3 +1,5 @@
+# **WIP**
+
 # 3D Home Assistant Dashboard
 
 An interactive, 3D dashboard for Home Assistant built with React, Three.js (React Three Fiber), and Tailwind CSS. This project allows you to visualize your home in 3D, interact with Home Assistant entities via customizable pins, and modify materials and lighting in real-time.
