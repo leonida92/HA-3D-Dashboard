@@ -2,6 +2,8 @@
 
 # 3D Home Assistant Dashboard
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/leonida92)
+
 An interactive, 3D dashboard for Home Assistant built with React, Three.js (React Three Fiber), and Tailwind CSS. This project allows you to visualize your home in 3D, interact with Home Assistant entities via customizable pins, and modify materials and lighting in real-time.
 
 ## Features
