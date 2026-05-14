@@ -84,6 +84,20 @@ Before using the dashboard, you must prepare your 3D model in a dedicated 3D mod
 4. **Editing Materials**:
    Use the material picker mode to click on a wall, floor, or object in your 3D model. Use the Material Editor panel to adjust colors, textures, and properties.
 
+## Integrating into Home Assistant
+
+The best way to use this dashboard is directly inside your Home Assistant instance. Since the dashboard compiles into a single file, it's very easy to embed!
+
+1. **Host the File:**
+   - Download the `index.html` file from the latest release.
+   - Place this file inside your Home Assistant's `www` folder (create the folder in your `config` directory if it doesn't exist).
+2. **Add the Card:**
+   - Open your Home Assistant dashboard.
+   - Click the pencil icon in the top right to **Edit Dashboard**.
+   - Click **Add Card** and search for the **Webpage** card.
+   - In the URL field, type: `/local/index.html`
+   - Adjust the aspect ratio as desired (e.g., `100%`) and save!
+
 ## Project Structure
 
 - `src/components/`: UI components, 3D scene elements, editors, and overlays.
