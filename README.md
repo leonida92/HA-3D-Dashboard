@@ -88,9 +88,10 @@ Before using the dashboard, you must prepare your 3D model in a dedicated 3D mod
 
 The best way to use this dashboard is directly inside your Home Assistant instance. Since the dashboard compiles into a single file, it's very easy to embed!
 
-1. **Host the File:**
+1. **Host the Files:**
    - Download the `index.html` file from the latest release.
-   - Place this file inside your Home Assistant's `www` folder (create the folder in your `config` directory if it doesn't exist).
+   - Place this file inside your Home Assistant's `www` folder (create the `www` folder in your `config` directory if it doesn't exist).
+   - *Optional:* If you want the dashboard to run completely locally and offline, you can also place your 3D model (`.glb` or `.gltf`) in this same `www` folder. You can then reference it via a local URL (e.g., `http://homeassistant.local:8123/local/your-model.glb`) when uploading it in the dashboard.
 2. **Add the Card:**
    - Open your Home Assistant dashboard.
    - Click the pencil icon in the top right to **Edit Dashboard**.
